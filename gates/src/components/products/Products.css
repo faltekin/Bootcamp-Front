@@ -1,0 +1,11 @@
+.products-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 sütun oluşturur */
+  gap: 10px;
+  justify-items: center;
+  width: 100%;
+}
+
+.product-card {
+  width: 100%; /* Cardların tam genişliğini almasını sağlar */
+}

@@ -1,0 +1,13 @@
+#profile {
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#photo {
+    width: 100px;
+    border-radius: 50%;
+}

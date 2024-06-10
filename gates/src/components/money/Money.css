@@ -1,0 +1,14 @@
+#money {
+    background: linear-gradient(180deg,#2ecc71,#1abc9c);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#money p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
