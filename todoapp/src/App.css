@@ -1,0 +1,140 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todoapp {
+  background: #fff;
+  margin: 130px 0 40px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  padding: 20px;
+}
+
+.new-todo {
+  padding: 16px 16px 16px 60px;
+  border: none;
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+  border-top: 1px solid #e6e6e6;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-list li {
+  position: relative;
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-list li .view {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 60px;
+  background: #f9f9f9;
+}
+
+.todo-list li .toggle {
+  text-align: center;
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border: none;
+  appearance: none;
+  background: none;
+}
+
+.todo-list li .toggle:after {
+  content: '◯';
+  font-size: 22px;
+  color: #d9d9d9;
+}
+
+.todo-list li .toggle:checked:after {
+  content: '✔';
+  color: #85c695;
+}
+
+.todo-list li .destroy {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  font-size: 30px;
+  color: #cc9a9a;
+  margin-bottom: 11px;
+  transition: color 0.2s ease-out;
+}
+
+.todo-list li .destroy:hover {
+  color: #af5b5e;
+}
+
+.footer {
+  padding: 10px 15px;
+  height: 20px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer .todo-count {
+  float: left;
+  text-align: left;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer li a {
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.footer li a:hover {
+  border-color: rgba(175, 47, 47, 0.1);
+}
+
+.footer li a.selected {
+  border-color: rgba(175, 47, 47, 0.2);
+}
