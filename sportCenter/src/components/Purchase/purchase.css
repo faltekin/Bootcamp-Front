@@ -1,0 +1,84 @@
+.purchase-wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.purchase-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.purchase-intro h2 {
+  font-size: 35px;
+  color: #355493;
+  font-weight: 900;
+}
+
+.highlight-box {
+  margin-top: 8px;
+  width: 90px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f29c13;
+}
+
+.purchase-intro p {
+  font-size: 1.2rem;
+  margin-top: 35px;
+  text-align: center;
+  color: black;
+}
+
+.purchase-list {
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  display: flex;
+  gap: 10px;
+}
+
+.purchase-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+.purchase-card img {
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.purchase-card h3 {
+  font-size: 22px;
+}
+
+.purchase-card h4 {
+  font-size: 15px;
+}
+
+.purchase-card span {
+  text-decoration: line-through;
+}
+
+.shopping-container {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 0 40px 10px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

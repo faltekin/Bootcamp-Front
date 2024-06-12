@@ -1,0 +1,4 @@
+.main-container {
+  background: url("/images/hero-man.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
